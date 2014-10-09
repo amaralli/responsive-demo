@@ -10,3 +10,44 @@ h1, h2, h3, h4, .lead {
     font-family: 'Satisfy', Helvetica, sans-serif;
 }
 
+.jumbotron {
+	background-color: #EE9000;
+}
+
+.first-row {
+	background-color: #00AAAA;
+}
+
+nav {
+	margin-top: 1em;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 2em;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+@media (min-width: 992px) {
+
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
